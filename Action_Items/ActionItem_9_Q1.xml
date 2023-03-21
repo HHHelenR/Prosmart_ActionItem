@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OpenUpGoogle" thread-count="3" parallel="tests">
+
+	<test name="Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="Action_Item_9.OpenUpGoogle" />
+		</classes>
+	</test>
+
+	<test name = "firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="Action_Item_9.OpenUpGoogle" />
+		</classes>
+	</test>
+
+	<test name="Edge">
+		<parameter name = "browser" value ="edge"/>
+		<classes>
+			<class name="Action_Item_9.OpenUpGoogle" />
+		</classes>		
+	</test>
+	
+</suite> 
